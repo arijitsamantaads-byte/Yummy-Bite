@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yummy Bite | Homemade Snacks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#fffaf2;
+      color:#333;
+    }
+
+    header{
+      background:#8b4513;
+      color:white;
+      padding:15px;
+      text-align:center;
+      font-size:26px;
+      font-weight:bold;
+    }
+
+    .banner{
+      overflow:hidden;
+      white-space:nowrap;
+      background:#f5e6d3;
+      padding:10px 0;
+    }
+
+    .banner img{
+      width:90%;
+      max-width:350px;
+      margin:0 10px;
+      border-radius:12px;
+      animation: slide 15s linear infinite;
+    }
+
+    @keyframes slide{
+      0%{transform:translateX(0);}
+      100%{transform:translateX(-100%);}
+    }
+
+    .section-title{
+      text-align:center;
+      margin:20px 0;
+      font-size:24px;
+      color:#8b4513;
+    }
+
+    .products{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:15px;
+      padding:15px;
+    }
+
+    .card{
+      background:white;
+      border-radius:15px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      padding:10px;
+      text-align:center;
+    }
+
+    .card img{
+      width:100%;
+      height:150px;
+      object-fit:cover;
+      border-radius:12px;
+    }
+
+    .card h3{
+      margin:10px 0 5px;
+      font-size:18px;
+    }
+
+    .price{
+      color:#e65100;
+      font-weight:bold;
+      margin-bottom:8px;
+    }
+
+    .buy-btn{
+      background:#25d366;
+      color:white;
+      border:none;
+      padding:10px;
+      width:100%;
+      border-radius:10px;
+      font-size:16px;
+      cursor:pointer;
+    }
+
+    footer{
+      background:#8b4513;
+      color:white;
+      text-align:center;
+      padding:10px;
+      margin-top:20px;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  Yummy Bite
+</header>
+
+<div class="banner">
+  <img src="https://via.placeholder.com/350x180?text=Special+Offer+1">
+  <img src="https://via.placeholder.com/350x180?text=Special+Offer+2">
+  <img src="https://via.placeholder.com/350x180?text=Special+Offer+3">
+</div>
+
+<h2 class="section-title">Our Products</h2>
+
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200?text=Thekua">
+    <h3>Thekua</h3>
+    <div class="price">₹---</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200?text=Pitha">
+    <h3>Pitha</h3>
+    <div class="price">₹---</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200?text=Snacks">
+    <h3>Desi Snacks</h3>
+    <div class="price">₹---</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200?text=Special+Item">
+    <h3>Special Item</h3>
+    <div class="price">₹---</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+</div>
+
+<footer>
+  © 2026 Yummy Bite | Cash on Delivery & Online Payment Available
+</footer>
+
+</body>
+  </html>
